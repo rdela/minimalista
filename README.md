@@ -1,8 +1,8 @@
-My Marked Style for [Marked 3]((https://markedapp.com/)
+My Marked Style for [Marked 3](https://markedapp.com/)
 
 ---
 
-Minimalista  
+[Minimalista](https://markedapp.com/styles/preview?style=d32a1ce03e9723a6)  
 Ricky de Laveaga  
 https://rdela.com
 
