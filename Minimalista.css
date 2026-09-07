@@ -1,20 +1,37 @@
-/*!
- * Title: Minimalista
- * Author: Ricky de Laveaga
- * Author URL: https://rdela.com
- * Description: Modified light + dark Blank style with true Black/White color scheme and non-italic blockquotes with a left border. 
+/*
 
-Generated with the Marked Style Generator (https://markedapp.com/style-generator)
- */
+This document has been created with Marked.app <http://markedapp.com>
+Content is property of the document author
+Please leave this notice in place, along with any additional credits below.
+
+---------------------------------------------------------------
+
+Title: Minimalista
+
+Author: Ricky de Laveaga
+
+URL: https://rdela.com
+
+Description: Modified light + dark Blank style with true Black/White color scheme and non-italic blockquotes with a left border.
+
+Fonts: None (system fonts)
+
+---
+
+*/
+
+body.inverted {
+  background-color: rgba(0, 0, 0, 1);
+}
 
 #wrapper {
-  font-size: 16px;
+  font-size: 125%;
   line-height: 1.5;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   margin: 0;
-  font: 100%/1.5 inherit;
+  font: 125%/1.5 inherit;
   box-sizing: border-box;
   overflow-y: scroll;
   color: rgba(0, 0, 0, 1);
@@ -27,6 +44,12 @@ Generated with the Marked Style Generator (https://markedapp.com/style-generator
   font-feature-settings: "kern", "liga", "clig", "calt";
   background-color: rgba(255, 255, 255, 1);
   padding: 2em;
+}
+
+
+body.inverted #wrapper {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
 }
 
 #wrapper article, #wrapper aside, #wrapper details, #wrapper figcaption, #wrapper figure, #wrapper footer, #wrapper header, #wrapper main, #wrapper menu, #wrapper nav, #wrapper section, #wrapper summary {
@@ -52,6 +75,11 @@ Generated with the Marked Style Generator (https://markedapp.com/style-generator
 
 #wrapper a {
   background-color: transparent;
+  color: rgba(158, 158, 255, 1);
+}
+
+#wrapper a:hover {
+  color: rgba(158, 158, 255, 0.8);
 }
 
 #wrapper a:active, #wrapper a:hover {
@@ -346,6 +374,10 @@ Generated with the Marked Style Generator (https://markedapp.com/style-generator
   line-height: 1.1;
 }
 
+body.inverted #wrapper h1, body.inverted #wrapper h2, body.inverted #wrapper h3, body.inverted #wrapper h4, body.inverted #wrapper h5, body.inverted #wrapper h6 {
+  color: rgba(245, 245, 245, 1);
+}
+
 #wrapper hgroup {
   margin-left: 0;
   margin-right: 0;
@@ -452,14 +484,14 @@ Generated with the Marked Style Generator (https://markedapp.com/style-generator
   margin-right: 1.5rem;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 8px;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.5rem;
   border-left-width: 4px;
   border-left-style: solid;
-  border-left-color: rgba(204, 204, 204, 1);
-  font-style: italic;
+  border-left-color: rgba(82, 82, 82, 0.3125);
+  font-style: normal;
   margin-left: 1.5rem;
 }
 
@@ -614,21 +646,8 @@ Generated with the Marked Style Generator (https://markedapp.com/style-generator
   padding-right: 0;
 }
 
-body.inverted #wrapper {
-  background-color: rgba(0, 0, 0, 1);
-  color: rgba(255, 255, 255, 1);
-}
-
 #wrapper ul, #wrapper ol, #wrapper dl {
   list-style-position: inside;
-}
-
-body.inverted #wrapper h1, body.inverted #wrapper h2, body.inverted #wrapper h3, body.inverted #wrapper h4, body.inverted #wrapper h5, body.inverted #wrapper h6 {
-  color: rgba(245, 245, 245, 1);
-}
-
-body.inverted #wrapper blockquote {
-  border-left-color: rgba(82, 82, 82, 1);
 }
 
 #wrapper ul, #wrapper ol {
@@ -701,7 +720,4 @@ body.inverted #wrapper .footnote sup, body.inverted #wrapper .reversefootnote {
 }
 
 /* Custom CSS */
-#wrapper blockquote {
-  padding-left: 8px;
-  font-style: normal;
-}
+
