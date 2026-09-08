@@ -170,7 +170,7 @@ body.inverted #wrapper a:hover {
 
 #wrapper code, #wrapper kbd, #wrapper pre, #wrapper samp {
   font-family: Monaco, monospace;
-  font-size: 20px;
+  font-size: inherit;
   line-height: 1.5rem;
 }
 
