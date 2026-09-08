@@ -75,10 +75,19 @@ body.inverted #wrapper {
 
 #wrapper a {
   background-color: transparent;
-  color: rgba(158, 158, 255, 1);
+  color: rgba(136, 102, 204, 1);
 }
 
 #wrapper a:hover {
+  color: rgba(136, 102, 204, 0.8);
+}
+
+body.inverted #wrapper a {
+  background-color: transparent;
+  color: rgba(158, 158, 255, 1);
+}
+
+body.inverted #wrapper a:hover {
   color: rgba(158, 158, 255, 0.8);
 }
 
@@ -160,8 +169,9 @@ body.inverted #wrapper {
 }
 
 #wrapper code, #wrapper kbd, #wrapper pre, #wrapper samp {
-  font-family: monospace,monospace;
-  font-size: 1em;
+  font-family: monospace;
+  font-size: 125%;
+  line-height: 1.5rem;
 }
 
 #wrapper figure {
@@ -594,21 +604,6 @@ body.inverted #wrapper h1, body.inverted #wrapper h2, body.inverted #wrapper h3,
 
 #wrapper li > p {
   margin-bottom: calc(1.5rem / 2);
-}
-
-#wrapper code {
-  font-size: 0.85rem;
-  line-height: 1.5rem;
-}
-
-#wrapper kbd {
-  font-size: 0.85rem;
-  line-height: 1.5rem;
-}
-
-#wrapper samp {
-  font-size: 0.85rem;
-  line-height: 1.5rem;
 }
 
 #wrapper abbr {
